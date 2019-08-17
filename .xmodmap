@@ -1,0 +1,14 @@
+remove Lock = Caps_Lock
+keysym Caps_Lock = Caps_Lock
+keysym Caps_Lock = Escape
+add Lock = Caps_Lock
+
+clear lock
+keycode 115 = Mode_switch ISO_Level3_Shift
+keycode 116 = Mode_switch ISO_Level3_Shift
+keycode 47 = semicolon colon oslash Oslash
+keycode 48 = apostrophe quotedbl ae AE
+keycode 34 = bracketleft braceleft aring Aring
+
+pointer = 1 2 3 4 5 10 11 8 9 6 7 12 13 14 15
+
