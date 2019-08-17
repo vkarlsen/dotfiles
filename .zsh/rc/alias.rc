@@ -1,0 +1,28 @@
+# $Id: 0b177996a2bdd63a5ccbcc04bb803ae8824c3991 $
+alias ll="ls -lah"
+alias rm="rm -i"
+alias cp="cp -ip"
+alias l="ls -ail"
+alias mkdir="mkdir -p"
+alias grep="grep --color"
+if [[ -a /usr/local/bin/vim ]]; then
+	alias vi="/usr/local/bin/vim"
+fi
+if [[ -a /usr/local/bin/ssh ]]; then
+	alias ssh="/usr/local/bin/ssh"
+fi
+
+case `uname` in
+	Darwin)
+		alias ls='ls -FG'
+	;;
+	FreeBSD)
+		alias ls='ls -FG'
+	;;
+	Linux)
+		alias ls='ls -F --color=auto'
+	;;
+esac
+
+# do a du -hs on each dir on current path
+alias lsdir="for dir in *;do;if [ -d \$dir ];then;du -hsL \$dir;fi;done"

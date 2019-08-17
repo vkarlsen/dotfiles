@@ -1,0 +1,12 @@
+# $Id: e151f4ccf3ae206bd171fefd8d9bf48b060a4f8d $
+setopt promptsubst
+
+autoload -U promptinit
+promptinit
+
+autoload -U colors
+colors
+
+#PROMPT="%n@%m %~%# "
+PROMPT="%(#.${red}.${green})%n@%m %~%{%(#~$fg[red]~$fg[green])%}%#%{$fg[default]%} "
+RPROMPT="%l %*"
