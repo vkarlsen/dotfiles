@@ -1,0 +1,6 @@
+URxvt*scrollBar:false
+URxvt*reverseVideo:true
+URxvt*visualBell:false
+URxvt*pointerBlank:true
+URxvt*font:xft:DejaVu Sans Mono:size=8
+
