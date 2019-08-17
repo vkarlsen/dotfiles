@@ -1,4 +1,3 @@
-" $Id: 1557e6a88a5acf0a18c07849d5b89fd44152bf5a $
 set nomodeline
 syntax on
 "colorscheme itsasoa

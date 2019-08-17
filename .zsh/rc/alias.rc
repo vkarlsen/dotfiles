@@ -1,4 +1,3 @@
-# $Id: 0b177996a2bdd63a5ccbcc04bb803ae8824c3991 $
 alias ll="ls -lah"
 alias rm="rm -i"
 alias cp="cp -ip"

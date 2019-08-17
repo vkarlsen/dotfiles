@@ -1,4 +1,3 @@
-# $Id: e151f4ccf3ae206bd171fefd8d9bf48b060a4f8d $
 setopt promptsubst
 
 autoload -U promptinit
