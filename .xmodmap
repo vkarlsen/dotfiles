@@ -9,6 +9,8 @@ keycode 116 = Mode_switch ISO_Level3_Shift
 keycode 47 = semicolon colon oslash Oslash
 keycode 48 = apostrophe quotedbl ae AE
 keycode 34 = bracketleft braceleft aring Aring
+keycode 39 = s S scaron Scaron
+keycode 52 = z Z zcaron Zcaron
+keycode 54 = c C ccaron Ccaron
 
 pointer = 1 2 3 4 5 10 11 8 9 6 7 12 13 14 15
-
